@@ -1,7 +1,8 @@
-/* Do While Repetition Structure */
-package objectOrientation.objects;
+// For Repetition Structure
 
-public class DoWhileStructure {
+package objectOrientation.structures;
+
+public class ForStructure {
 
     private int number;
 
@@ -14,15 +15,13 @@ public class DoWhileStructure {
     }
 
     public int getPairNumbers(int vNumber) {
-        int accountant = 1;
         int pairNumbers = 0;
 
-        do {
-            if (accountant % 2 == 0)
+        for (int accountant = 1; accountant <= vNumber; accountant++) {
+            if (accountant % 2 == 0) {
                 pairNumbers++;
-            accountant++;
-        } while (accountant <= vNumber);
-
+            }
+        }
         return pairNumbers;
     }
 }

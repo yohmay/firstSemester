@@ -1,4 +1,4 @@
-/* Simple conditional branch */
+// Simple conditional branch 
 package objectOrientation.objects;
 
 public class SimpleConditional {

@@ -1,10 +1,11 @@
-/* Data type in Java */
+// Data type in Java
+
 package objectOrientation.objectOrientedIntroduction;
 
 public class TestCar {
     public static void main(String args[]) {
 
-        Vehicle Car = new Vehicle();
+        // Vehicle Car = new Vehicle(null);
 
         // Car.color = 'Prata';
         // Car.brand = 'Citroen';

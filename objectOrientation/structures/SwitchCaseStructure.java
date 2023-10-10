@@ -1,5 +1,6 @@
-/* Switch Case decision structure */
-package objectOrientation.objects;
+//  Switch Case decision structure
+
+package objectOrientation.structures;
 
 import javax.swing.JOptionPane;
 

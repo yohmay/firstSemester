@@ -1,4 +1,4 @@
-/* Composite conditional branch */
+//  Composite conditional branch
 package objectOrientation.objects;
 
 public class CompoundConditional {
