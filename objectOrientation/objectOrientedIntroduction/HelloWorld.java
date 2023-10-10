@@ -1,4 +1,5 @@
-/* Hello Word application */
+// Hello Word application
+
 package objectOrientation.objectOrientedIntroduction;
 
 public class HelloWorld {

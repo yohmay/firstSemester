@@ -1,9 +1,9 @@
-/* Classes: Attributes (Properties) + Methods (Behavior) */
+// Classes: Attributes (Properties) + Methods (Behavior)
 package objectOrientation.objectOrientedIntroduction;
 
 public class CarGenerator {
 	public static void main(String args[]) {
-		Vehicle Car = new Vehicle();
+		// Vehicle Car = new Vehicle(null);
 
 		// Car.setMotor('2.0');
 		// Car.setColor('Prata');

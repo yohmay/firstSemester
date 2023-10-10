@@ -1,5 +1,6 @@
-/* While Repetition Structure */
-package objectOrientation.objects;
+// While Repetition Structure
+
+package objectOrientation.structures;
 
 public class WhileStructure {
     private int number;

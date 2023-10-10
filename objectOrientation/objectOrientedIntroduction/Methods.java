@@ -1,4 +1,5 @@
-/* Methods - Procedures, Functions, Parameter */
+// Methods - Procedures, Functions, Parameter 
+
 package objectOrientation.objectOrientedIntroduction;
 // import java.util.function.Function;
 
