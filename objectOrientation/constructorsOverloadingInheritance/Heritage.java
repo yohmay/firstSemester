@@ -19,7 +19,7 @@ public class Heritage {
         this.velocity = velocity;
     }
 
-    public float getvelocity() {
+    public float getVelocity() {
         return velocity;
     }
 

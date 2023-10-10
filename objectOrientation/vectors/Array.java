@@ -8,7 +8,7 @@ public class Array {
         velocity = vVelocity;
     }
 
-    public int getvelocity() {
+    public int getVelocity() {
         return velocity;
     }
 }

@@ -9,13 +9,13 @@ public class UseVehicle {
         v.setName(JOptionPane.showInputDialog("Digite o nome:"));
         v.setVelocity(Integer.parseInt(JOptionPane.showInputDialog("Digite a velocidade:")));
 
-        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getvelocity());
+        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getVelocity());
         v.accelerate();
 
-        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getvelocity());
+        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getVelocity());
         v.brake();
 
-        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getvelocity());
+        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getVelocity());
         v.desconnected();
     }
 }
