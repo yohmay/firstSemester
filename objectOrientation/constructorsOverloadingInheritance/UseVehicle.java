@@ -6,16 +6,16 @@ public class UseVehicle {
     public static void main(String args[]) {
         Vehicle v = new Vehicle();
         v.connected();
-        v.setName(JOptionPane.showInputDialog("Digite o nome:"));
-        v.setVelocity(Integer.parseInt(JOptionPane.showInputDialog("Digite a velocidade:")));
+        v.setName(JOptionPane.showInputDialog("Enter name:"));
+        v.setVelocity(Integer.parseInt(JOptionPane.showInputDialog("Enter the speed:")));
 
-        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getVelocity());
+        JOptionPane.showMessageDialog(null, "Current Speed:" + v.getVelocity());
         v.accelerate();
 
-        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getVelocity());
+        JOptionPane.showMessageDialog(null, "Current Speed:" + v.getVelocity());
         v.brake();
 
-        JOptionPane.showMessageDialog(null, "Velocidade Atual: " + v.getVelocity());
+        JOptionPane.showMessageDialog(null, "Current Speed:" + v.getVelocity());
         v.desconnected();
     }
 }

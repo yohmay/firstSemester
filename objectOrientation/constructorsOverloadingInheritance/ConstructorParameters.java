@@ -12,12 +12,12 @@ public class ConstructorParameters {
 
     void Vehicle(String n) {
         name = n;
-        brand = "Valor Padrão";
+        brand = "Standard value";
     }
 
     public void ViewInformation() {
-        System.out.println("Nome: " + name);
-        System.out.println("Marca: " + brand);
+        System.out.println("Name: " + name);
+        System.out.println("Brand: " + brand);
     }
 }
 

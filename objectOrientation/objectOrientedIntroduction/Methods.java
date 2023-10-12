@@ -6,7 +6,7 @@ package objectOrientation.objectOrientedIntroduction;
 public class Methods {
     public static int main(String args[]) {
 
-        System.out.println("Procedimentos sem parâmetros");
+        System.out.println("Parameterless procedures");
 
         // String Message (){
         // String message = "Função sem parâmetro";

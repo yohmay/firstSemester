@@ -11,12 +11,15 @@ public class ExampleThis {
 
         Vehicle(String name, String brand) {
             this.name = name;
-            this.brand = "Valor Padrão";
+            this.brand = "Standard value";
         }
 
         public void ShowBrand() {
-            System.out.println("Nome: " + name);
-            System.out.println("Marca: " + brand);
+            System.out.println("Name: " + name);
+            System.out.println("Brand: " + brand);
+        }
+
+        public void connected() {
         }
     }
 

@@ -23,14 +23,14 @@ public class Interface {
         }
 
         public String toString() {
-            String response = "Descrição: " + description;
-            response += nlin + "Qtde: " + amount;
+            String response = "Description: " + description;
+            response += nlin + "Quantities: " + amount;
             return response;
         }
 
         public void toSystemOut() {
-            String response = "Descrição: " + description;
-            response += nlin + "Qtde: " + amount;
+            String response = "Description: " + description;
+            response += nlin + "Quantities: " + amount;
             System.out.print(response);
         }
     }

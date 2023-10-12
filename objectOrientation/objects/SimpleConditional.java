@@ -11,7 +11,7 @@ public class SimpleConditional {
 
     public void Withdrawal(double vValue) {
         if (vValue > balance)
-            System.out.println("Saldo insuficiente");
+            System.out.println("Insufficient funds");
         else
             balance = balance - vValue;
     }

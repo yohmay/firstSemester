@@ -6,7 +6,7 @@ public class Overload {
 
     public class Operators {
         public void multiply(double d, double e) {
-            System.out.println("Multiplicação: " + d * e);
+            System.out.println("Multiplication: " + d * e);
         }
     }
 

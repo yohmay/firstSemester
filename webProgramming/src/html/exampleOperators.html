@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<script language="javascript">
+    let data_hora = new Date();
+    let hora = data_hora.getHours();
+    if (hora < 10) {
+        alert("Bom dia!!")
+        if (previsao_tempo == "chuvoso") {
+            alert("Está chovendo, leve o guarda-chuva")
+        }
+    }
+    else if (hora > 12 && hora < 18) {
+        alert("Boa tarde..");
+    }
+    else {
+        alert("Boa noite..")
+    }
+</script>
+
+</html>

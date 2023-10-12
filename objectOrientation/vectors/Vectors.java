@@ -6,9 +6,9 @@ public class Vectors {
 
         char CharacterArray[] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g' };
 
-        System.out.println("Mostrando o Array: " + String.valueOf(CharacterArray));
-        System.out.println("Quant. de elementos: " + CharacterArray.length);
-        System.out.println("1º ao 3º caracter: " + String.valueOf(CharacterArray, 0, 3));
+        System.out.println("Showing the Array: " + String.valueOf(CharacterArray));
+        System.out.println("Number of elements: " + CharacterArray.length);
+        System.out.println("1st to 3rd character: " + String.valueOf(CharacterArray, 0, 3));
 
         String StringArray[] = { "Aprendendo", "a", "utilizar", "array" };
         String names = "";
@@ -17,9 +17,9 @@ public class Vectors {
             names = names + StringArray[i] + " ";
         }
 
-        System.out.println("Mostrando o Array: " + names);
-        System.out.println("Quant. de elementos do array: " + StringArray.length);
-        System.out.println("Mostrando o 1º elemento: " + StringArray[0]);
-        System.out.println("Mostrando o último elemento do array: " + StringArray[StringArray.length - 1]);
+        System.out.println("Showing Array: " + names);
+        System.out.println("Number of array elements: " + StringArray.length);
+        System.out.println("Showing the 1st element: " + StringArray[0]);
+        System.out.println("Showing the last element of the array: " + StringArray[StringArray.length - 1]);
     }
 }
