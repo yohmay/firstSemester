@@ -1,5 +1,5 @@
-var x = "Bom";
-var y = "dia!";
+var x = "Good";
+var y = "Morning";
 
 var x = 4;
 var y = "a";

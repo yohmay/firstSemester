@@ -1,11 +1,11 @@
-localStorage.setItem("nome", "Maria");
-sessionStorage.setItem("nome", "Maria");
+localStorage.setItem("name", "Maria");
+sessionStorage.setItem("name", "Maria");
 
-localStorage.getItem("nome");
-sessionStorage.getItem("nome");
+localStorage.getItem("name");
+sessionStorage.getItem("name");
 
-localStorage.removeItem("nome");
-sessionStorage.removeItem("nome");
+localStorage.removeItem("name");
+sessionStorage.removeItem("name");
 
 localStorage.clear();
 sessionStorage.clear();
