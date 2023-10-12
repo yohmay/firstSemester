@@ -13,12 +13,12 @@ public class CompoundConditional {
     public void CalculateAverage() {
         average = (FirstNote + SecondNote) / 2;
         if (average >= 8 && average <= 10)
-            System.out.println("Conceito A");
+            System.out.println("Concept A");
         else if (average >= 6 && average < 8)
-            System.out.println("Conceito B");
+            System.out.println("Concept B");
         else if (average >= 4 && average < 6)
-            System.out.println("Conceito C");
+            System.out.println("Concept C");
         else
-            System.out.println("Conceito D");
+            System.out.println("Concept D");
     }
 }

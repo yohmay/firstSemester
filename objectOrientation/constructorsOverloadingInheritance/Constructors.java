@@ -11,11 +11,11 @@ public class Constructors {
     private String brand;
 
     void Vehicle() {
-        brand = "Valor Padrão";
+        brand = "Standard value";
     }
 
     public void ShowBrand() {
-        System.out.println("Marca: " + brand);
+        System.out.println("Brand: " + brand);
     }
 }
 

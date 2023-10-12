@@ -1,5 +1,5 @@
 body {
-  background-color: #b0c4de;
+  background-color: #7e7e7e;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  color: blue;
+  color: #666;
 }
 
 p.main {
@@ -68,7 +68,7 @@ h1 {
   border-right-style: solid;
   border-bottom-style: dotted;
   border-left-style: solid;
-  border-color: red;
+  border-color: #4d4d4d;
 
   margin-top: 100px;
   margin-bottom: 100px;
@@ -77,16 +77,16 @@ h1 {
 }
 
 div {
-  border: 2px solid #a1a1a1;
+  border: 2px solid #353535;
   padding: 10px 40px;
-  background: #dddddd;
+  background: #1c1c1c;
   width: 300px;
   border-radius: 25px;
   -moz-border-radius: 25px;
 }
 
 h1 {
-  text-shadow: 5px 5px 5px #ff0000;
+  text-shadow: 5px 5px 5px #040404;
 
   p {
     word-wrap: break-word;

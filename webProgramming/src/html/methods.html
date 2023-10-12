@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.j">
+    </script>
+
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#b1").click(function () {
+                $("[type='text']").val("inserindo um valor novo");
+                $("[type='text']").before("- Antes -");
+                $("[type='text']").after("- Depois - ");
+                $("#d1").prepend("Aprendendo");
+                $("#d1").append("jQuery");
+                $("#d2").html("Programação Web");
+            });
+        });
+    </script>
+    <style type="text/css">
+        div {
+            border-width: 1px;
+            border-style: solid;
+        }
+    </style>
+    <div id="d1">Aprendendo jQuery</div>
+    <br>
+    <input type="text" value="valor inicial">
+    <input id="b1" type="button" value="Clique aqui">
+    <br>
+    <br>
+    <div id="d2">Praticando jQuery</div>
+</body>
+</head>
+
+<body>
+    <input type="button" id="btnBotao" value="Clique aqui" />
+</body>
+
+</html>

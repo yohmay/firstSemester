@@ -17,6 +17,13 @@ public class Overlay {
             setVelocity(getVelocity() + 0.5f);
         }
 
+        private void setVelocity(float f) {
+        }
+
+        private float getVelocity() {
+            return 0;
+        }
+
         public void brake() {
             setVelocity(getVelocity() - 0.5f);
         }
@@ -36,8 +43,15 @@ public class Overlay {
             setVelocity(getVelocity() + 3.5f);
         }
 
+        private void setVelocity(float f) {
+        }
+
         public void brake() {
             setVelocity(getVelocity() - 3.5f);
+        }
+
+        private float getVelocity() {
+            return 0;
         }
 
     }
