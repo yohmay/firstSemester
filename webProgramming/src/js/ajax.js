@@ -8,6 +8,7 @@ function loadXMLDoc() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
     }
   };
+
   xmlhttp.open("GET", url, true);
   xmlhttp.send();
 }
@@ -15,18 +16,21 @@ function loadXMLDoc() {
 $.ajax({
   url: "info.php",
   type: "post",
-  data: { aluno: "Prof. Gobbato", email: "professorgobbato@yahoo.com.br" },
+  data: {
+    student: "Prof. Gobbato",
+    email: "professorgobbato@yahoo.com.br",
+  },
   dataType: "html",
-  username: "professor",
+  username: "teacher",
   password: "123456",
   beforeSend: function () {
-    $("#carregando").fadeln();
+    $("#loading").fadeln();
   },
   timeout: 3000,
-  success: function (retorno) {
-    $("#resposta").html(retorno);
+  success: function (sucess) {
+    $("#response").html(sucess);
   },
   error: function (erro) {
-    $("#resposta").html(erro);
+    $("#response").html(erro);
   },
 });
