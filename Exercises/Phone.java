@@ -1,4 +1,4 @@
-package Exercises;
+package exercises;
 
 public class Phone {
     public String operator;

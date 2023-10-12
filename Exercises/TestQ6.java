@@ -1,4 +1,4 @@
-package Exercises;
+package exercises;
 
 public class TestQ6 {
     public TestQ6() {
